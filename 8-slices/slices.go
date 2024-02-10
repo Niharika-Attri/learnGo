@@ -28,6 +28,12 @@ func main() {
 	planets = append(planets, "neptune")
 	fmt.Println(planets)
 
+	//length
+	fmt.Printf("length: %v \n", len(route))
+
+	//capacity
+	fmt.Printf("capacity: %v \n", cap(route))
+
 	fewPlanets := planets[1:3] // ending limit excluded
 	fmt.Println(fewPlanets)
 	fmt.Println(planets)

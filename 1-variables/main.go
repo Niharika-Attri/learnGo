@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main() { // starts execution at main
 	var fName string = "niharika"
 	var lName = "attri"
 	age := 18

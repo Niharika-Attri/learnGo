@@ -13,7 +13,7 @@ func main() {
 		fmt.Println(key, " ", value)
 	}
 
-	students := make(map[int]string)
+	students := make(map[int]string)// built in function to make container
 
 	students[2744] = "niharika" // second
 	students[1204] = "shivansh" // first in output
@@ -32,3 +32,5 @@ func main() {
 		fmt.Println("record found successfully")
 	}
 }
+
+

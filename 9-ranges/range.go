@@ -7,8 +7,8 @@ func main() {
 	slice := []string{"hello", "I", "am", "niharika"}
 
 	for i, element := range slice {
-		fmt.Println("i:", i, "element: ", element) // range takes index ancd values from the slice
-		for _, ch := range element {
+		fmt.Println("i:", i, "element: ", element) // range gives data in key(index) value pair
+		for _, ch := range element {// underscore if we don't want to use index
 			fmt.Printf("%q", ch) //%q	a single-quoted character literal safely escaped with Go syntax
 		}
 		fmt.Println()

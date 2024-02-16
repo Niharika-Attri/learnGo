@@ -1,0 +1,8 @@
+Method: is like a function but receives a special argument which is the receiver
+    receiver: a type that can direcly call the function
+method consists of: 'func' keyword, 'receiver' argument, 'function body'
+
+3 step process
+    1. create a type
+    2. create a getter
+    3. create a method

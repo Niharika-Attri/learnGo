@@ -1,0 +1,11 @@
+function that is called with the varying number of arguments
+"user is allowed to pass zero or more arguments", eg. fmt.Printf
+
+in declaration:
+	type of last parameter is preceded by an ellipsis i.e, (...)
+	it indicates that the function can be called at any number of parameters of this type
+
+syntax:
+	function function_name(para1, para2...type)type {// code...}
+
+    ...type behaves like a slice

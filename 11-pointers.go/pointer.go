@@ -17,7 +17,7 @@ func main() {
 
 	// syntax
 	// 1. declaring a pointer (here, for an integer)
-	//var p *int => pointer to an integer
+	// var p *int => pointer to an integer
 	// pointer's zero value is nil
 	// 2. to reference a value/ to create a pointer to a variable
 	myString := "hello"

@@ -6,3 +6,7 @@ method consists of: 'func' keyword, 'receiver' argument, 'function body'
     1. create a type
     2. create a getter
     3. create a method
+
+function gets associated with struct
+    function can only be used when used with the struct
+    eg. let admin and customer be stucts, as they will have roles/functions assigned to them, and be only used by them we can use reciever function so that the respective functions can only be used by the respective struct

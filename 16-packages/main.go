@@ -1,7 +1,12 @@
 package main
 
-import "learnGo/16-packages/errorHandler"
+import (
+	"github.com/Niharika-Attri/learnGo/16-packages/db"
+	errHandler "github.com/Niharika-Attri/learnGo/16-packages/errorHandler"
+)
 
 func main() {
-	errorHandler.PrintError("this is an error.")
+	errHandler.PrintError("Something went wrong", 401)
+
+	db.ConnectToDB()
 }

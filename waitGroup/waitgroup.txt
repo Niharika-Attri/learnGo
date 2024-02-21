@@ -1,0 +1,9 @@
+a type of counter which blocks the execution of function or a goroutine until its internal counter becomes 0
+
+3 methods
+
+    Add(int): increases WaitGroup counter by given integer value
+
+    Done(): decreases counter by 1, use to indicate termination of a go routine
+
+    Wait(): blocks execution until internal counter becomes 0

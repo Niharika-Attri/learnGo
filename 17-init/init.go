@@ -16,7 +16,7 @@ func init() { // sets off a piece of code to run before any other part of your p
 		fmt.Println("running on windows")
 	} else {
 		fmt.Println("this program will exit now")
-		os.Exit(1)
+		os.Exit(1) // printed: exit status 1
 	}
 }
 

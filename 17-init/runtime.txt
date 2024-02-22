@@ -1,0 +1,12 @@
+runtime package ==============
+package that allows a programmer to control the behaviour of runtime
+
+gain more control over memory management and performance
+
+os package==================
+provides platform-independent interface to operating system functionality
+used to deal with programming related to reading and writing files
+os.Open, os.Mkdir, os.Exit
+os.Exit: when you need to abort the program immediately and also return an error code so that other programs can use to report what happened
+        OR when you already  know that after this one test fail, the other will fail as well, so you might as well just exit now
+        OR when your program has done everything it needed to do, and now just needs to exit

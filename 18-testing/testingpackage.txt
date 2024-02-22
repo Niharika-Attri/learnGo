@@ -1,0 +1,10 @@
+provides support for automated testing of Go packages
+
+run with "go test" command
+
+func TestXxx(*testing.T)
+    Xxx does not start with a lowercase letter
+    use Error, fail or related methods within to signal failure
+
+t.Error will report test failures but continue executing the test
+t.Fatal will report test failures and stop the test immediately

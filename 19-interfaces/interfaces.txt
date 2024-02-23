@@ -1,0 +1,5 @@
+interfaces are named collections of method signatures
+    like defining a struct
+    unlike struct, we only define interface's behaviour, that is, "what can this type do"
+
+lets us define a behaviour that is similar between types

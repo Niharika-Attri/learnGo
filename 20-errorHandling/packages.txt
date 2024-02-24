@@ -1,0 +1,15 @@
+log package=============
+ logging: process of keeping track of events and activites by writing them to an output such as a file
+    helps to monitor and understand issues in our application
+
+log package:
+    Print:
+    Fatal: calls os.Exit after writing the log message
+    Panic: calls panic(exception) after writing the log message
+
+strconv package===========
+    implements conversions to and from string representations of basic data types
+
+    1. numeric conversions:
+        a. Atoi => string to int 
+        b. Itoa => int to string

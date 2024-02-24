@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-//import "fmt"
-
-type Shapes interface {
+type Shapes interface { //cirlce and rectangle, different structs but same behaviour => area
 	area() float64
 }
 
@@ -27,7 +25,7 @@ func (rectangle Rectangle) area() float64 {
 
 // salary claculation using interface
 type Employee interface {
-	CalculateSalary() int
+	CalculateSalary() int // calculate salary => common behaviour for both permanent and contract but with different functioning
 }
 
 type Permanent struct {
@@ -45,11 +43,12 @@ func (p Permanent) CalculateSalary() int {
 	return p.basePay + p.pf
 }
 
+// calculate salary behaviour is same but working is different for both permanent and contract
 func (c Contract) CalculateSalary() int {
 	return c.basePay
 }
 
-func totalSalary(employees []Employee) int {
+func totalSalary(employees []Employee) int { // interface is passed
 	totalExpense := 0
 
 	for _, person := range employees {
@@ -87,6 +86,8 @@ func main() {
 
 	employees := []Employee{john, ella, ramesh}
 
-	total := totalSalary(employees)
+	total := totalSalary(employees) // both contract and permanent can be passed(where interface is to be passed)
 	fmt.Println(total)
 }
+
+// implementing the function on the struct to be used is important

@@ -32,7 +32,7 @@ func main() {
 	fmt.Printf("length: %v \n", len(route))
 
 	//capacity
-	fmt.Printf("capacity: %v \n", cap(route))
+	fmt.Printf("capaci/ty: %v \n", cap(route))
 
 	fewPlanets := planets[1:3] // ending limit excluded
 	fmt.Println(fewPlanets)

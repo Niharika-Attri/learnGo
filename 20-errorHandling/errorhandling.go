@@ -28,6 +28,8 @@ func divide(a, b float64) (float64, error) { // arguments and return
 
 func main() {
 	file, err := os.ReadFile(`C:\Users\HP\learnGo\20-errorHandling\data.txt`)
+	// os.ReadFile takes in a parameter as a string
+	// returns a slice of bytes or an error
 
 	if err != nil {
 		fmt.Println("error reading file: ", err)
